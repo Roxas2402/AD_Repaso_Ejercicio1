@@ -17,21 +17,23 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         Abonado abonado = new Abonado();
-        abonado.setNombre("Rafael");
+        abonado.setNombre("Pepe");
         Autor autor = new Autor();
-        autor.setNombre("Eduardo");
+        autor.setNombre("Carlos");
         Libro libro = new Libro();
-        libro.setTitulo("Por qué no dedicarse a la Programación");
+        libro.setTitulo("Me quiero morir");
         libro.setAutor(autor);
         Alquiler alquiler = new Alquiler();
         alquiler.setFecha(Date.valueOf(LocalDate.now()));
         abonado.getAlquileres().add(alquiler);
         libro.getAlquires().add(alquiler);
         autor.getLibros().add(libro);
+        alquiler.setLibro(libro);
+        alquiler.setAbonado(abonado);
 
-        // CREA LA VARIABLE QUE PUEDE CONECTAR
+        //CREA LA VARIABLE QUE PUEDE CONECTAR
         SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
-        // LA VARIBLE DE LA CONEXiÓN
+        //LA VARIBLE DE LA CONEXIÓN
         Session session = sessionFactory.openSession();
         session.beginTransaction();
 

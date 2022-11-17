@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb84c76-d368-4d95-aee4-4cc992e36d3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_orm_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AD_Repaso_Ejercicio1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bd.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cieep/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cieep/modelos/Abonado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cieep/modelos/Alquiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cieep/modelos/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cieep/modelos/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="cfb84c76-d368-4d95-aee4-4cc992e36d3f" name="Changes" comment="a">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AD_Repaso_Ejercicio1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AD_Repaso_Ejercicio1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/bd.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cieep/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cieep/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cieep/modelos/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cieep/modelos/Libro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +43,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jerop/OneDrive - CIEEP Progresa/2022-2023/Acceso a Datos/Primer Trimestre/AD_Repaso_Ejercicio1",
+    "last_opened_file_path": "C:/Users/jerop/OneDrive - CIEEP Progresa/2022-2023/Acceso a Datos/Primer Trimestre/Simulacro_Ejercicio1",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31558442",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "IntelliLang.Advanced"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -83,8 +71,18 @@
       <option name="presentableId" value="Default" />
       <updated>1668505471627</updated>
       <workItem from="1668505473119" duration="175000" />
-      <workItem from="1668507086006" duration="2103000" />
+      <workItem from="1668507086006" duration="2265000" />
+      <workItem from="1668625825072" duration="497000" />
+      <workItem from="1668682659815" duration="4240000" />
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <created>1668509344093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668509344093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +98,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
